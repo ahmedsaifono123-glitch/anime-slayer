@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Anime Slayer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#EEF3F0; --ink:#10302A; --muted:#4F6A63; --card:#FFFFFF; --line:#CFDDD6; --accent:#0F7B55; --accent-ink:#FFFFFF; --warn:#F3E7C8; --warn-ink:#5A4510;
+  box-sizing:border-box; padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){--bg:#0D1B17; --ink:#E6F1EC; --muted:#9DB5AC; --card:#14272F; --line:#27403A; --accent:#3DD598; --accent-ink:#06261A; --warn:#3A3115; --warn-ink:#EAD9A4;}
+}
+:root[data-theme="dark"]{--bg:#0D1B17; --ink:#E6F1EC; --muted:#9DB5AC; --card:#14272F; --line:#27403A; --accent:#3DD598; --accent-ink:#06261A; --warn:#3A3115; --warn-ink:#EAD9A4;}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"IBM Plex Sans Arabic",Tahoma,Arial,sans-serif;line-height:1.8}
+main{max-width:640px;margin:0 auto;padding:40px 20px 56px}
+.icon{width:88px;height:88px;border-radius:22px;background:var(--accent);color:var(--accent-ink);display:grid;place-items:center;font-size:40px;font-weight:700}
+h1{font-size:clamp(2rem,7vw,2.8rem);line-height:1.25;margin:20px 0 8px}
+.lead{color:var(--muted);font-size:1.1rem;margin:0 0 28px;max-width:34em}
+.btn{display:flex;align-items:center;justify-content:center;gap:10px;width:100%;padding:18px 24px;border-radius:14px;background:var(--accent);color:var(--accent-ink);font:inherit;font-size:1.25rem;font-weight:700;text-decoration:none}
+.btn:hover{filter:brightness(1.08)}
+.btn:focus-visible,a:focus-visible{outline:3px solid var(--ink);outline-offset:3px}
+.meta{display:flex;gap:20px;flex-wrap:wrap;color:var(--muted);font-size:.95rem;margin:14px 2px 0}
+.alt{margin:10px 2px 0;font-size:.95rem;color:var(--muted)}
+.alt a{color:var(--ink)}
+h2{font-size:1.4rem;margin:44px 0 12px}
+ol{margin:0;padding:0 22px 0 0}
+li{margin-bottom:10px}
+.note{background:var(--warn);color:var(--warn-ink);border-radius:12px;padding:14px 16px;margin-top:20px;font-size:.98rem}
+ul.feat{list-style:none;padding:0;margin:0;display:grid;gap:10px}
+ul.feat li{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 16px;margin:0}
+.flag{width:112px;height:auto;border-radius:12px;border:1px solid var(--line);display:block}
+.ded{margin:18px 0 0;color:var(--accent);font-weight:700}
+.foot{margin:40px 0 0;text-align:center;color:var(--muted)}
+</style>
+</head>
+<body>
+<main>
+  <svg class="flag" viewBox="0 0 300 200" role="img" aria-label="علم الجزائر"><defs><mask id="cr"><rect width="300" height="200" fill="#fff"/><circle cx="162" cy="100" r="40" fill="#000"/></mask></defs><rect width="150" height="200" fill="#006233"/><rect x="150" width="150" height="200" fill="#fff"/><circle cx="145" cy="100" r="50" fill="#D21034" mask="url(#cr)"/><polygon fill="#D21034" points="172,76 177.6,92.2 194.8,92.6 181.1,103 186.1,119.4 172,109.6 157.9,119.4 162.9,103 149.2,92.6 166.4,92.2"/></svg>
+  <p class="ded">إهداء خاص إلى لعزيزة 💚</p>
+  <h1>Anime Slayer</h1>
+  <p class="lead">تطبيق جلّادة المراييل، لكل من يحب الأنمي وما يشبع منه. يارب يشتغل من أول مرة 🤲</p>
+
+  <a class="btn" id="dl" href="https://drive.google.com/uc?export=download&id=1iARp5brVY3SP_jghwxFC9d7Kt1889D3z" target="_blank" rel="noopener">تحميل التطبيق للأندرويد</a>
+  <div class="meta"><span>الإصدار 1.0</span><span>أندرويد فقط</span></div>
+  <p class="alt">لم يبدأ التحميل؟ <a href="https://drive.google.com/file/d/1iARp5brVY3SP_jghwxFC9d7Kt1889D3z/view?usp=drivesdk" target="_blank" rel="noopener">افتح الرابط البديل</a></p>
+
+  <h2>المزايا</h2>
+  <ul class="feat">
+    <li>جلّادة المراييل: ما يقدر عليها لا مريول ولا كيس خبز</li>
+    <li>حلقات أنمي بلا ما تحس بالوقت يمشي</li>
+    <li>صُنع بحب وبنفس جزائري أصيل</li>
+  </ul>
+
+  <h2>طريقة التثبيت</h2>
+  <ol>
+    <li>اضغط زر التحميل وانتظر انتهاء تنزيل الملف.</li>
+    <li>افتح الملف من إشعارات التحميل أو من مجلد التنزيلات.</li>
+    <li>إذا ظهرت رسالة منع، اضغط «الإعدادات» وفعّل «السماح من هذا المصدر».</li>
+    <li>ارجع واضغط «تثبيت».</li>
+  </ol>
+  <div class="note">التطبيق يُحمَّل من خارج متجر Google Play، لذلك يعرض أندرويد تحذيراً قبل التثبيت. هذا أمر طبيعي مع أي ملف APK.</div>
+<p class="foot">🇩🇿 صُنع بحب في الجزائر، إلى لعزيزة</p>
+</main>
+</body>
+</html>
